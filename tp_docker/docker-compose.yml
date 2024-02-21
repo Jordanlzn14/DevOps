@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  apache:
+    image: httpd:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./mon_contenu_web:/usr/local/apache2/htdocs
+
+
+
+
+
+
